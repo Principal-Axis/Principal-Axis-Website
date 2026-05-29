@@ -1,0 +1,51 @@
+[
+  {
+    "id": "abhi-nitin",
+    "name": "ABHI NITIN",
+    "role": "SYSTEMS ARCHITECT & CO-FOUNDER",
+    "bio": "Systems programmer who fell into web architecture. Specializes in Rust, WASM compilation pipelines, and building low-overhead reactive protocols.",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&h=400&q=80",
+    "github": "https://github.com/abhinitin",
+    "twitter": "https://x.com/abhinitin",
+    "linkedin": "https://linkedin.com/in/abhinitin",
+    "coreSkill": "Rust / Compilers",
+    "accentColor": "from-red-600 to-rose-500",
+    "featuredIn": "NextGen Builders"
+  },
+  {
+    "id": "kairav-sen",
+    "name": "KAIRAV SEN",
+    "role": "GRAPHICS LEAD & CO-FOUNDER",
+    "bio": "High school junior pioneering vector computation pipelines. Built multiple heavy WebGL shaders and is actualmente mapping dynamic WebGPU canvas clusters.",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&h=400&q=80",
+    "github": "https://github.com/kairavsen",
+    "twitter": "https://x.com/kairavsen",
+    "coreSkill": "WebGPU / WGSL",
+    "accentColor": "from-rose-600 to-pink-500",
+    "featuredIn": "TeensInTech"
+  },
+  {
+    "id": "zoe-chen",
+    "name": "ZOE CHEN",
+    "role": "INTERACTIVE DESIGN LEAD",
+    "bio": "Crafts visceral spatial layouts. Obsessed with high contrast glass interfaces, micro-interactions, dynamic islands, and motion graphics that feel organic.",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&h=400&q=80",
+    "github": "https://github.com/zoechen",
+    "linkedin": "https://linkedin.com/in/zoechen",
+    "coreSkill": "Framer Motion / Glassmorphism",
+    "accentColor": "from-amber-600 to-red-500",
+    "featuredIn": "DesignHacks Weekly"
+  },
+  {
+    "id": "aryan-malhotra",
+    "name": "ARYAN MALHOTRA",
+    "role": "INFRASTRUCTURE & COMPACT NETWORKS",
+    "bio": "Pipes raw bytes. Optimizes SSH connections, server setups, and Docker routing configurations. Thinks about routing delays in nanoseconds.",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&h=400&q=80",
+    "github": "https://github.com/aryanmal",
+    "twitter": "https://x.com/aryanmal",
+    "coreSkill": "Go / Systems Node / WebRTC",
+    "accentColor": "from-red-700 to-orange-600",
+    "featuredIn": "HackerNews Frontpage"
+  }
+]
