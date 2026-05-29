@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;600;800&family=Syne:wght@700;800&display=swap');
+@import "tailwindcss";
+
+/* Define the theme variables in Tailwind v4 */
+@theme {
+  --font-sans: "Inter", "Outfit", sans-serif;
+  --font-display: "Pagkaki", "Syne", "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Red Palette variables if needed */
+  --color-brand-red: #ff3e3e;
+  --color-brand-deep: #7c0d0d;
+  --color-brand-black: #0c0707;
+  --color-brand-gray: #1a1212;
+}
+
+/* Custom CSS fallback font definitions to support 'Pagkaki' natively if hosted */
+@font-face {
+  font-family: 'Pagkaki';
+  src: local('Pagkaki'), local('Pagkaki-Bold'), url('/fonts/pagkaki.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Glassmorphism helpers */
+.glass-panel {
+  background: rgba(18, 12, 12, 0.45);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 62, 62, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-panel-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(26, 17, 17, 0.6);
+  border-color: rgba(255, 62, 62, 0.25);
+  box-shadow: 0 12px 40px 0 rgba(255, 62, 62, 0.08);
+}
+
+.glass-card-header {
+  border-bottom: 1px solid rgba(255, 62, 62, 0.1);
+}
+
+.glass-pill {
+  background: rgba(20, 10, 10, 0.65);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 62, 62, 0.15);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Heading stylings containing uppercase with pagkaki font */
+.pagkaki-heading {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Hide scrollbar but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Shimmer animations */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-text {
+  background: linear-gradient(90deg, #ff4c4c, #ff9e9e, #ff4c4c);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+/* Red neon glowing background blobs */
+.red-glow-blob {
+  filter: blur(140px);
+  pointer-events: none;
+  border-radius: 50%;
+  mix-blend-mode: screen;
+}
+
+/* Custom styled scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 62, 62, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 62, 62, 0.5);
+}
+
+/* Custom styles for grid background lines */
+.grid-lines {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 62, 62, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 62, 62, 0.03) 1px, transparent 1px);
+}
