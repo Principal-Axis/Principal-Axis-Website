@@ -1,0 +1,38 @@
+[
+  {
+    "id": "origin",
+    "date": "MAY 2024",
+    "title": "THE PHYSICS LAB HACK",
+    "subtitle": "Origin of the Name",
+    "description": "While debugging orbital rotation formulas in senior physics, we noticed that computing alignments along the 'Principal Axis' is what prevents systems from wobbling out of control. We built our first local peer-to-peer data router during that very lab period, naming our group after that stabilizing stabilizer coordinate.",
+    "category": "origin",
+    "badge": "THE SPARK"
+  },
+  {
+    "id": "breakthrough",
+    "date": "OCT 2024",
+    "title": "COMPRESSED CHIP CLUSTERS",
+    "subtitle": "First Viral Output",
+    "description": "Faced with extremely tight browser sandboxes, we designed a differential JSON parser that compressed structured compiler records by 88% natively in the thread stack. A simple showcase post on HackerNews went viral overnight, leading to 1,500 developer testers in under 48 hours.",
+    "category": "breakthrough",
+    "badge": "TRACTION"
+  },
+  {
+    "id": "pivot",
+    "date": "APRIL 2025",
+    "title": "THE ZERO-CONFIG MANIFESTO",
+    "subtitle": "Ditching the Boilerplate",
+    "description": "We realized developers are spending more than 20% of their creative energy configuring configurations instead of writing code. We decided to build simple, visual, spatial modules that run client-side to strip away setup overhead entirely. This led to our 'Zero-Config' focus that underpins all our projects.",
+    "category": "pivot",
+    "badge": "EVOLUTION"
+  },
+  {
+    "id": "scale",
+    "date": "CURRENT",
+    "title": "UNLEASHING GLOBAL NODES",
+    "subtitle": "Teenagers Defying Limits",
+    "description": "Operating as a fully remote teen-led network across coastlines, we are shipping low-layer developer speedups, spatial shells, and WebGPU draft canvases. We prove that premium, professional, hardware-optimized production systems do not require complex corporate structures—just obsessive craft.",
+    "category": "scale",
+    "badge": "TODAY AND BEYOND"
+  }
+]
