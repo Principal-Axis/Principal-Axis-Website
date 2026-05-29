@@ -1,0 +1,6 @@
+{
+  "name": "Principal Axis",
+  "description": "A premium glassmorphic portal for Principal Axis, a teen-founded bleeding-edge tech startup, featuring ultra-smooth Category switching, dynamic project visualizers, and an interactive Dynamic Island navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
