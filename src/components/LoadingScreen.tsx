@@ -80,7 +80,18 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
               className="mb-8 flex flex-col items-center"
             >
               <div className="relative w-16 h-16 flex items-center justify-center rounded-xl bg-gradient-to-tr from-red-950 to-[#120707] border border-red-500/30 shadow-[0_0_20px_rgba(239,68,68,0.2)] mb-3">
-                {/* Abstract geometric SVG representation of Principal Axis */}
+                <img 
+                  src="/palogo.png" 
+                  alt="Principal Axis Logo"
+                  className="w-full h-full object-contain animate-pulse rounded-xl"
+                  referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    // Fallback to absolute SVG rendering if image fails
+                    (e.target as HTMLImageElement).style.display = 'none';
+                    const fallback = e.currentTarget.nextElementSibling;
+                    if (fallback) (fallback as HTMLElement).style.display = 'block';
+                  }}
+                />
                 <svg className="w-8 h-8 text-red-500 animate-pulse" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                   <line x1="4" y1="12" x2="20" y2="12" />
                   <line x1="12" y1="4" x2="12" y2="20" />
