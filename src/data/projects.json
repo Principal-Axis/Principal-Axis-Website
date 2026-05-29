@@ -1,0 +1,126 @@
+[
+  {
+    "id": "pencil-cli",
+    "name": "PENCIL CLI",
+    "category": "DevTools",
+    "subtitle": "Prismatic aesthetic slideshow builder",
+    "summary": "Compiles raw markdown sketch notes into breathtaking, interactively rich presentations styled with Tailwind CSS.",
+    "description": "Pencil CLI replaces bloated visual editors with developer-first layout instructions. Built purely on Rust and WebAssembly, it allows teams to compose interactive deck code, integrate live React previews inline, and export self-contained, lightning-fast HTML presentations.",
+    "fullCaseStudy": [
+      "We were frustrated with slide builders that forced mouse-dragging and produced ugly code templates. As teens, we prefer to live in our terminal and code editor. We launched Pencil to make presentation composition as natural as writing a markdown README.",
+      "The engine processes custom custom layouts, utilizing heavy blur panels and dark glass cards to ensure information pops. It injects a local dev server with blazing fast HMR so layouts update instantly as you format text.",
+      "Pencil CLI has grown from a weekend hack to a favorite tool used by open-source maintainers worldwide for keynotes, training assemblies, and technical product demos."
+    ],
+    "bannerImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Rust", "WASM", "TailwindCSS", "Markdown"],
+    "status": "live",
+    "statusLabel": "ACTIVE LIVE",
+    "websiteUrl": "https://pencil.principalaxis.dev",
+    "githubUrl": "https://github.com/principal-axis/pencil-cli",
+    "stats": [
+      { "label": "GITHUB STARS", "value": "1.2k+" },
+      { "label": "DOWNLOADS / MO", "value": "24,000" },
+      { "label": "COMPILATION TIME", "value": "<12ms" }
+    ],
+    "stack": ["Rust", "WASM", "Vite", "Node.js"],
+    "launchDate": "Oct 2025"
+  },
+  {
+    "id": "aether-db",
+    "name": "AETHER CORE",
+    "category": "Data",
+    "subtitle": "Hyper-fast reactive store for web apps",
+    "summary": "Distributed, reactive client-side database layer that synchronizes local storage smoothly with central systems using differential sync.",
+    "description": "Aether Core resolves the complexity of offline-first state tracking. By building a vector-timestamp index directly inside IndexedDB and exposing a subscription-based React hook, you get instantaneous UI queries with seamless cloud reconciliation.",
+    "fullCaseStudy": [
+      "Traditional database clients are heavy and don't manage local optimistic UI state natively without severe boilerplates. Aether core solves this with deep index caching.",
+      "By utilizing differential syncing algorithms and CRDT (Conflict-free Replicated Data Types) structures, it ensures client-side operations succeed first and background merge operations occur with zero lock-contentions.",
+      "Ideal for collaborative applications, real-time canvasses, and markdown notes systems that need to thrive under disconnected network conditions."
+    ],
+    "bannerImage": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["IndexedDB", "CRDTs", "Reactive", "TypeScript"],
+    "status": "beta",
+    "statusLabel": "BETA 1.4",
+    "websiteUrl": "https://aether.principalaxis.dev",
+    "githubUrl": "https://github.com/principal-axis/aether-core",
+    "stats": [
+      { "label": "SYNC LATENCY", "value": "4ms" },
+      { "label": "CONCURRENT SUBS", "value": "250,500" },
+      { "label": "BUNDLE SIZE", "value": "5.4kb" }
+    ],
+    "stack": ["TypeScript", "IndexedDB", "WebSockets", "RxJS"],
+    "launchDate": "Jan 2026"
+  },
+  {
+    "id": "kinetix-os",
+    "name": "KINETIX SHELL",
+    "category": "Systems",
+    "subtitle": "Immersive glass workstation terminal",
+    "summary": "An interactive, visual layout shell designed for Unix servers, turning dense configuration streams into clean glass nodes.",
+    "description": "Kinetix Shell bridges the gap between text-heavy terminals and fluid spatial OS visualizers. It transforms live system outputs, system service trees, container statuses, and network traffic arrays into an elegant glassmorphism dashboard.",
+    "fullCaseStudy": [
+      "We loves monitors, but we hate looking at tiny white text lines to see if a container went down or memory usage peaked. We built a terminal filter that aggregates standard out streams into spatial UI modules.",
+      "It renders container activity as glowing circular visual elements. Red accent nodes highlight load spikes, letting system administrators detect resource issues at a glance.",
+      "With full keyboard-centric hotkeys and SSH-tunneling security, it's designed to run safely even on barebone servers and low-power tablet computers."
+    ],
+    "bannerImage": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["System Shell", "SSH", "React Native", "Go"],
+    "status": "alpha",
+    "statusLabel": "ALPHA RELEASE",
+    "websiteUrl": "https://kinetix.principalaxis.dev",
+    "githubUrl": "https://github.com/principal-axis/kinetix-shell",
+    "stats": [
+      { "label": "INITIAL COLD START", "value": "22ms" },
+      { "label": "MAX CPU OVERHEAD", "value": "0.4%" },
+      { "label": "SUPPORTED PROTOCOLS", "value": "SSH/gRPC" }
+    ],
+    "stack": ["Go", "React Native", "WebRTC", "Xterm.js"],
+    "launchDate": "Mar 2026"
+  },
+  {
+    "id": "vortex-dev",
+    "name": "VORTEX DEV",
+    "category": "DevTools",
+    "subtitle": "Blazing fast development workspace proxy",
+    "summary": "A zero-config dev proxy that intercepts modular compilation loops for enormous TypeScript repositories, slashing build times.",
+    "description": "Vortex Dev operates under the hood, analyzing workspace change cycles and lazily bundling code chunks strictly upon request when a specific browser tab references those modules during development. This avoids compile-everything bottlenecks on start.",
+    "fullCaseStudy": [
+      "As high-school developers, we compile dozens of projects on entry-level student notebooks. Sitting around waiting minutes for bundling limits creativity.",
+      "We wrote Vortex Dev in pure Go to tap into system events and rewrite loader paths during active requests. It bypasses cold-entry caches, meaning even gigantic monorepos boot in less than 200 milliseconds.",
+      "Now you can run heavy workspaces on a classroom Chromebook without heating up the processor or draining the battery module."
+    ],
+    "bannerImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Go", "Workspace Proxy", "TailwindCSS", "HMR"],
+    "status": "upcoming",
+    "statusLabel": "COMING SOON",
+    "stats": [
+      { "label": "DEV BOOT TIME", "value": "<180ms" },
+      { "label": "MEMORY USAGE", "value": "18MB" }
+    ],
+    "stack": ["Go", "TypeScript", "Vite Plugin", "ESBuild"],
+    "launchDate": "July 2026"
+  },
+  {
+    "id": "aura-canvas",
+    "name": "AURA CANVAS",
+    "category": "Creative",
+    "subtitle": "WebGPU vector mathematics drafting editor",
+    "summary": "High-fidelity spatial design editor utilizing WebGPU compute shaders, enabling fluid rendering of millions of geometric nodes.",
+    "description": "Aura Canvas redefines visual creative applications by utilizing raw hardware pipelines. Rather than rendering shapes inside standard CPU layers, it leverages compute shaders to coordinate math calculations directly on your GPU, leading to unbreakable real-time vectors rendering.",
+    "fullCaseStudy": [
+      "Vector layout tools usually lag when handling thousands of detailed curves, lines, and gradients simultaneously because DOM/Canvas loops get saturated. Aura operates differently.",
+      "By utilizing modern WebGPU interfaces, we process layout structures, intersections, and rich lighting masks at 120 FPS inside the browser. It allows limitless creative layouts without losing a single frame.",
+      "Designed specifically for UI design mockups, geometric art drafting, and schematic wiring architectures."
+    ],
+    "bannerImage": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["WebGPU", "WGSL", "Vector Engine", "Canvas"],
+    "status": "concept",
+    "statusLabel": "CONCEPT STAGE",
+    "stats": [
+      { "label": "FPS TARGET", "value": "120 FPS" },
+      { "label": "MAX COMPUTABLE NODES", "value": "5.4 Million" }
+    ],
+    "stack": ["TypeScript", "WebGPU", "WGSL", "Canvas API"],
+    "launchDate": "Oct 2026"
+  }
+]
